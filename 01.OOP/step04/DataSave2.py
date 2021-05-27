@@ -5,6 +5,7 @@ class DataPublic1:
     def tea_public():
         with open('teacher.csv','r',encoding= 'utf-8') as f:
             datas = f.readlines()
+            print(datas)
 
             all_tea = []
 
